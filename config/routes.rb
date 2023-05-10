@@ -3,6 +3,8 @@ Rails.application.routes.draw do
 
   get 'about', to: 'home#about'
 
+  get 'brownielouco', to: "home#brownielouco"
+
   devise_for(:user, {
     class_name: 'Spree::User',
     singular: :spree_user,
