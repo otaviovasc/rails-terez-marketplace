@@ -7,7 +7,15 @@
     <%= render 'shared/search/search_bar', taxons: taxons, taxon: taxon %>
   </div>
 
-  <%= link_to "Sobre", about_path, class: 'auth-link' %>
+  <div class="dropdown auth-link">
+    <button class="dropdown-button">
+      Sobre
+    </button>
+    <div class="dropdown-content">
+      <a href="/about">Isso é Pudim</a>
+      <a href="/about">Brownie 87</a>
+    </div>
+  </div>
 
   <% if spree_current_user %>
     <%= link_to I18n.t('spree.my_account'), account_path, class: 'auth-link' %>
