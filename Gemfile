@@ -5,6 +5,13 @@ ruby "3.1.2"
 
 gem 'webpacker', '~> 5.0'
 
+# Solidus translate
+gem 'solidus_i18n'
+gem 'rails-i18n'
+gem 'kaminari-i18n'
+gem 'routing-filter'
+
+
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4", ">= 7.0.4.3"
 
