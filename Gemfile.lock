@@ -223,6 +223,8 @@ GEM
     nio4r (2.5.9)
     nokogiri (1.14.3-x86_64-darwin)
       racc (~> 1.4)
+    nokogiri (1.14.3-x86_64-linux)
+      racc (~> 1.4)
     omnes (0.2.2)
     orm_adapter (0.5.0)
     parallel (1.23.0)
@@ -413,6 +415,7 @@ GEM
       activesupport (>= 5.2)
       sprockets (>= 3.0.0)
     sqlite3 (1.6.2-x86_64-darwin)
+    sqlite3 (1.6.2-x86_64-linux)
     state_machines (0.5.0)
     state_machines-activemodel (0.8.0)
       activemodel (>= 5.1)
@@ -466,6 +469,7 @@ GEM
 
 PLATFORMS
   x86_64-darwin-22
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap
